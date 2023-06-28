@@ -1,0 +1,79 @@
+<mat-card style="padding: 15px">
+  <mat-card-header style="margin: auto">
+    <mat-card-title>Summer Bootcamps</mat-card-title>
+  </mat-card-header>
+  <br />
+  <mat-form-field>
+    <mat-label>Age Group</mat-label>
+    <mat-select
+      [(value)]="selectedAgeGroup"
+      (selectionChange)="onFilterChange()"
+    >
+      <mat-option value="All">All Age Group</mat-option>
+      <mat-option value="Ages 7-8">Ages 7-8</mat-option>
+      <mat-option value="Ages 9-11">Ages 9-11</mat-option>
+      <mat-option value="Ages 12-14">Ages 12-14</mat-option>
+      <mat-option value="Ages 15-18">Ages 15-18</mat-option>
+    </mat-select>
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Course Type</mat-label>
+    <mat-select
+      [(value)]="selectedCourseType"
+      (selectionChange)="onFilterChange()"
+    >
+      <mat-option value="All">All Course</mat-option>
+      <mat-option value="comp sci">COMP SCI</mat-option>
+      <mat-option value="game dev">GAME DEV</mat-option>
+      <mat-option value="ui/ux design">UI/UX DESIGN</mat-option>
+      <mat-option value="web dev">WEB DEV</mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <div fxLayout="row wrap" fxLayoutGap="16px grid">
+    <div
+      fxFlex="33%"
+      fxFlex.xs="100%"
+      fxFlex.sm="50%"
+      *ngFor="let course of courseList"
+    >
+      <mat-card class="example-card" style="margin: auto">
+        <img mat-card-image src="{{ course.img }}" alt="Photo of Course" />
+        <mat-card-content>
+          <mat-card-header>
+            <mat-card-title>{{ course.name }}</mat-card-title>
+            <mat-card-subtitle>{{ course.ageGroup }}</mat-card-subtitle>
+          </mat-card-header>
+          <br />
+
+          <mat-accordion>
+            <mat-expansion-panel *ngFor="let date of course.dates">
+              <mat-expansion-panel-header>
+                <mat-panel-title>
+                  {{ date.week }}
+                </mat-panel-title>
+                <mat-panel-description>
+                  {{ date.days }}
+                </mat-panel-description>
+              </mat-expansion-panel-header>
+              <mat-list role="list" *ngFor="let time of date.time">
+                <mat-list-item role="listitem" style="padding-left: 15px">{{
+                  time
+                }}</mat-list-item>
+              </mat-list>
+            </mat-expansion-panel>
+          </mat-accordion>
+          <br />
+          <button
+            mat-raised-button
+            color="primary"
+            style="width: 100%; background-color: #584b8a"
+            (click)="enrollForm()"
+          >
+            Enroll Now
+          </button>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+</mat-card>
