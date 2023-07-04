@@ -15,6 +15,7 @@ export class HomeComponent {
   courseList = courses;
 
   filterCourses(age: any, type: any) {
+
     // if (age !== 'All') {
     //   const filteredCourses = courses.filter(
     //     (course) => course.ageGroup === age
