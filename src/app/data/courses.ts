@@ -7,53 +7,61 @@ export const courses = [
     dates: [
       {
         week: 'Week 1',
-        days: '19th June - 23rd June',
-        time: ['12pm - 2pm']
+        days: '4th - 8th Dec',
+        time: ['10am - 12pm', '12pm - 2pm']
       },
       {
         week: 'Week 2',
-        days: '26th June - 30th June',
+        days: '11th - 15th Dec',
         time: ['12pm - 2pm', '2pm - 4pm']
       },
       {
         week: 'Week 3',
-        days: '3rd July - 7th July',
+        days: '18th - 22nd Dec',
         time: ['10am - 12pm']
       },
       {
         week: 'Week 4',
-        days: '10th July - 14th July',
-        time: ['10am - 12pm']
+        days: '25th - 29th Dec',
+        time: ['10am - 12pm', '2pm - 4pm']
       },
       {
         week: 'Week 5',
-        days: '17th July - 21st July',
+        days: '1st - 5th Jan',
+        time: ['10am - 12pm', '12pm - 2pm']
+      },
+    ]
+  },
+  {
+    name: 'Coding from Scratch (Level 2)',
+    ageGroup: 'Ages 7-8',
+    type: 'comp sci',
+    img: 'https://static.wixstatic.com/media/b89f99_34f197e9480b4c379d22461017d3fb68~mv2.png/v1/fill/w_345,h_200,al_c,q_85,enc_auto/scratch7_8.png',
+    dates: [
+      {
+        week: 'Week 1',
+        days: '4th - 8th Dec',
         time: ['10am - 12pm']
       },
       {
-        week: 'Week 6',
-        days: '24th July - 28th July',
+        week: 'Week 2',
+        days: '11th - 15th Dec',
         time: ['12pm - 2pm']
       },
       {
-        week: 'Week 7',
-        days: '31st July - 4th August',
-        time: ['12pm - 2pm']
+        week: 'Week 3',
+        days: '18th - 22nd Dec',
+        time: ['10am - 12pm']
       },
       {
-        week: 'Week 8',
-        days: '7th August - 11th August',
-        time: ['12pm - 2pm']
+        week: 'Week 4',
+        days: '25th - 29th Dec',
+        time: ['10am - 12pm', '2pm - 4pm']
       },
       {
-        week: 'Week 9',
-        days: '14th August - 18th August',
-        time: ['12pm - 2pm']
-      },
-      {
-        week: 'Week 10',
-        days: '21st August - 25th August',
-        time: ['12pm - 2pm', '2pm - 4pm']
+        week: 'Week 5',
+        days: '1st - 5th Jan',
+        time: ['10am - 12pm']
       },
     ]
   },
@@ -65,28 +73,61 @@ export const courses = [
     dates: [
       {
         week: 'Week 1',
-        days: '19th June - 23rd June',
-        time: ['10am - 12pm']
+        days: '4th - 8th Dec',
+        time: ['10am - 12pm', '12pm - 2pm']
+      },
+      {
+        week: 'Week 2',
+        days: '11th - 15th Dec',
+        time: ['10am - 12pm', '2pm - 4pm']
+      },
+      {
+        week: 'Week 3',
+        days: '18th - 22nd Dec',
+        time: ['12pm - 2pm']
       },
       {
         week: 'Week 4',
-        days: '10th July - 14th July',
+        days: '25th - 29th Dec',
+        time: ['10am - 12pm', '2pm - 4pm']
+      },
+      {
+        week: 'Week 5',
+        days: '1st - 5th Jan',
+        time: ['10am - 12pm', '12pm - 2pm']
+      },
+    ]
+  },
+  {
+    name: 'Stem Adventure with Minecraft (Level 2)',
+    ageGroup: 'Ages 7-8',
+    type: 'comp sci',
+    img: 'https://static.wixstatic.com/media/b89f99_3c5d53c185c64344a011eaf69abb188d~mv2.png/v1/fill/w_345,h_200,al_c,q_85,enc_auto/Minecraft_Age78_Splash.png',
+    dates: [
+      {
+        week: 'Week 1',
+        days: '4th - 8th Dec',
+        time: ['12pm - 2pm']
+      },
+      {
+        week: 'Week 2',
+        days: '11th - 15th Dec',
+        time: ['10am - 12pm', '2pm - 4pm']
+      },
+      {
+        week: 'Week 3',
+        days: '18th - 22nd Dec',
+        time: ['12pm - 2pm']
+      },
+      {
+        week: 'Week 4',
+        days: '25th - 29th Dec',
         time: ['10am - 12pm']
       },
       {
         week: 'Week 5',
-        days: '17th July - 21st July',
-        time: ['10am - 12pm']
-      },
-      {
-        week: 'Week 8',
-        days: '7th August - 11th August',
-        time: ['10am - 12pm']
-      },
-      {
-        week: 'Week 9',
-        days: '14th August - 18th August',
-        time: ['10am - 12pm']
+        days: '1st - 5th Jan',
+        time: ['12pm - 2pm']
       },
     ]
   },
@@ -98,37 +139,27 @@ export const courses = [
     dates: [
       {
         week: 'Week 1',
-        days: '19th June - 23rd June',
+        days: '4th - 8th Dec',
         time: ['10am - 12pm']
       },
       {
+        week: 'Week 2',
+        days: '11th - 15th Dec',
+        time: ['12pm - 2pm']
+      },
+      {
         week: 'Week 3',
-        days: '3rd July - 7th July',
+        days: '18th - 22nd Dec',
         time: ['10am - 12pm']
       },
       {
         week: 'Week 4',
-        days: '10th July - 14th July',
+        days: '25th - 29th Dec',
         time: ['12pm - 2pm']
       },
       {
         week: 'Week 5',
-        days: '17th July - 21st July',
-        time: ['10am - 12pm']
-      },
-      {
-        week: 'Week 6',
-        days: '24th July - 28th July',
-        time: ['12pm - 2pm']
-      },
-      {
-        week: 'Week 8',
-        days: '7th August - 11th August',
-        time: ['12pm - 2pm']
-      },
-      {
-        week: 'Week 9',
-        days: '14th August - 18th August',
+        days: '1st - 5th Jan',
         time: ['10am - 12pm']
       },
     ]
@@ -141,48 +172,28 @@ export const courses = [
     dates: [
       {
         week: 'Week 1',
-        days: '19th June - 23rd June',
-        time: ['10am - 12pm']
+        days: '4th - 8th Dec',
+        time: ['10am - 12pm', '2pm - 4pm']
       },
       {
         week: 'Week 2',
-        days: '26th June - 30th June',
+        days: '11th - 15th Dec',
         time: ['10am - 12pm', '12pm - 2pm']
       },
       {
         week: 'Week 3',
-        days: '3rd July - 7th July',
+        days: '18th - 22nd Dec',
         time: ['12pm - 2pm']
       },
       {
         week: 'Week 4',
-        days: '10th July - 14th July',
+        days: '25th - 29th Dec',
         time: ['10am - 12pm']
       },
       {
         week: 'Week 5',
-        days: '17th July - 21st July',
-        time: ['10am - 12pm']
-      },
-      {
-        week: 'Week 6',
-        days: '24th July - 28th July',
-        time: ['10am - 12pm', '12pm - 2pm']
-      },
-      {
-        week: 'Week 7',
-        days: '31st July - 4th August',
-        time: ['12pm - 2pm']
-      },
-      {
-        week: 'Week 8',
-        days: '7th August - 11th August',
-        time: ['10am - 12pm']
-      },
-      {
-        week: 'Week 9',
-        days: '14th August - 18th August',
-        time: ['10am - 12pm']
+        days: '1st - 5th Jan',
+        time: ['10am - 12pm', '2pm - 4pm']
       },
     ]
   },
@@ -194,53 +205,28 @@ export const courses = [
     dates: [
       {
         week: 'Week 1',
-        days: '19th June - 23rd June',
+        days: '4th - 8th Dec',
         time: ['4pm - 6pm']
       },
       {
         week: 'Week 2',
-        days: '26th June - 30th June',
+        days: '11th - 15th Dec',
         time: ['10am - 12pm', '2pm - 4pm', '4pm - 6pm']
       },
       {
         week: 'Week 3',
-        days: '3rd July - 7th July',
+        days: '18th - 22nd Dec',
         time: ['10am - 12pm', '4pm - 6pm']
       },
       {
         week: 'Week 4',
-        days: '10th July - 14th July',
+        days: '25th - 29th Dec',
         time: ['10am - 12pm', '12pm - 2pm']
       },
       {
         week: 'Week 5',
-        days: '17th July - 21st July',
+        days: '1st - 5th Jan',
         time: ['4pm - 6pm']
-      },
-      {
-        week: 'Week 6',
-        days: '24th July - 28th July',
-        time: ['10am - 12pm', '2pm - 4pm', '4pm - 6pm']
-      },
-      {
-        week: 'Week 7',
-        days: '31st July - 4th August',
-        time: ['10am - 12pm', '4pm - 6pm']
-      },
-      {
-        week: 'Week 8',
-        days: '7th August - 11th August',
-        time: ['10am - 12pm', '12pm - 2pm']
-      },
-      {
-        week: 'Week 9',
-        days: '14th August - 18th August',
-        time: ['4pm - 6pm']
-      },
-      {
-        week: 'Week 10',
-        days: '21st August - 25th August',
-        time: ['10am - 12pm', '2pm - 4pm', '4pm - 6pm']
       },
     ]
   },
@@ -252,53 +238,28 @@ export const courses = [
     dates: [
       {
         week: 'Week 1',
-        days: '19th June - 23rd June',
+        days: '4th - 8th Dec',
         time: ['12pm - 2pm']
       },
       {
         week: 'Week 2',
-        days: '26th June - 30th June',
+        days: '11th - 15th Dec',
         time: ['2pm - 4pm']
       },
       {
         week: 'Week 3',
-        days: '3rd July - 7th July',
+        days: '18th - 22nd Dec',
         time: ['2pm - 4pm']
       },
       {
         week: 'Week 4',
-        days: '10th July - 14th July',
+        days: '25th - 29th Dec',
         time: ['4pm - 6pm']
       },
       {
         week: 'Week 5',
-        days: '17th July - 21st July',
+        days: '1st - 5th Jan',
         time: ['12pm - 2pm']
-      },
-      {
-        week: 'Week 6',
-        days: '24th July - 28th July',
-        time: ['2pm - 4pm']
-      },
-      {
-        week: 'Week 7',
-        days: '31st July - 4th August',
-        time: ['2pm - 4pm']
-      },
-      {
-        week: 'Week 8',
-        days: '7th August - 11th August',
-        time: ['4pm - 6pm']
-      },
-      {
-        week: 'Week 9',
-        days: '14th August - 18th August',
-        time: ['12pm - 2pm']
-      },
-      {
-        week: 'Week 10',
-        days: '21st August - 25th August',
-        time: ['2pm - 4pm']
       },
     ]
   },
@@ -310,42 +271,22 @@ export const courses = [
     dates: [
       {
         week: 'Week 1',
-        days: '19th June - 23rd June',
+        days: '4th - 8th Dec',
         time: ['12pm - 2pm']
       },
       {
         week: 'Week 2',
-        days: '26th June - 30th June',
+        days: '11th - 15th Dec',
         time: ['12pm - 2pm']
       },
       {
         week: 'Week 3',
-        days: '3rd July - 7th July',
+        days: '18th - 22nd Dec',
         time: ['10am - 12pm', '12pm - 2pm']
       },
       {
         week: 'Week 5',
-        days: '17th July - 21st July',
-        time: ['12pm - 2pm']
-      },
-      {
-        week: 'Week 6',
-        days: '24th July - 28th July',
-        time: ['12pm - 2pm']
-      },
-      {
-        week: 'Week 7',
-        days: '31st July - 4th August',
-        time: ['10am - 12pm', '12pm - 2pm']
-      },
-      {
-        week: 'Week 9',
-        days: '14th August - 18th August',
-        time: ['12pm - 2pm']
-      },
-      {
-        week: 'Week 10',
-        days: '21st August - 25th August',
+        days: '1st - 5th Jan',
         time: ['12pm - 2pm']
       },
     ]
@@ -358,27 +299,17 @@ export const courses = [
     dates: [
       {
         week: 'Week 1',
-        days: '19th June - 23rd June',
+        days: '4th - 8th Dec',
         time: ['2pm - 4pm']
       },
       {
         week: 'Week 4',
-        days: '10th July - 14th July',
+        days: '25th - 29th Dec',
         time: ['2pm - 4pm']
       },
       {
         week: 'Week 5',
-        days: '17th July - 21st July',
-        time: ['2pm - 4pm']
-      },
-      {
-        week: 'Week 8',
-        days: '7th August - 11th August',
-        time: ['2pm - 4pm']
-      },
-      {
-        week: 'Week 9',
-        days: '14th August - 18th August',
+        days: '1st - 5th Jan',
         time: ['2pm - 4pm']
       },
     ]
@@ -391,43 +322,23 @@ export const courses = [
     dates: [
       {
         week: 'Week 1',
-        days: '19th June - 23rd June',
+        days: '4th - 8th Dec',
         time: ['4pm - 6pm']
       },
       {
         week: 'Week 2',
-        days: '26th June - 30th June',
+        days: '11th - 15th Dec',
         time: ['10am - 12pm']
       },
       {
         week: 'Week 3',
-        days: '3rd July - 7th July',
+        days: '18th - 22nd Dec',
         time: ['10am - 12pm']
       },
       {
         week: 'Week 5',
-        days: '17th July - 21st July',
+        days: '1st - 5th Jan',
         time: ['4pm - 6pm']
-      },
-      {
-        week: 'Week 6',
-        days: '24th July - 28th July',
-        time: ['10am - 12pm']
-      },
-      {
-        week: 'Week 7',
-        days: '31st July - 4th August',
-        time: ['10am - 12pm']
-      },
-      {
-        week: 'Week 9',
-        days: '14th August - 18th August',
-        time: ['4pm - 6pm']
-      },
-      {
-        week: 'Week 10',
-        days: '21st August - 25th August',
-        time: ['10am - 12pm']
       },
     ]
   },
@@ -439,53 +350,28 @@ export const courses = [
     dates: [
       {
         week: 'Week 1',
-        days: '19th June - 23rd June',
+        days: '4th - 8th Dec',
         time: ['2pm - 4pm', '4pm - 6pm']
       },
       {
         week: 'Week 2',
-        days: '26th June - 30th June',
+        days: '11th - 15th Dec',
         time: ['4pm - 6pm']
       },
       {
         week: 'Week 3',
-        days: '3rd July - 7th July',
+        days: '18th - 22nd Dec',
         time: ['2pm - 4pm', '4pm - 6pm']
       },
       {
         week: 'Week 4',
-        days: '10th July - 14th July',
+        days: '25th - 29th Dec',
         time: ['2pm - 4pm', '4pm - 6pm']
       },
       {
         week: 'Week 5',
-        days: '17th July - 21st July',
+        days: '1st - 5th Jan',
         time: ['2pm - 4pm', '4pm - 6pm']
-      },
-      {
-        week: 'Week 6',
-        days: '24th July - 28th July',
-        time: ['4pm - 6pm']
-      },
-      {
-        week: 'Week 7',
-        days: '31st July - 4th August',
-        time: ['2pm - 4pm', '4pm - 6pm']
-      },
-      {
-        week: 'Week 8',
-        days: '7th August - 11th August',
-        time: ['2pm - 4pm', '4pm - 6pm']
-      },
-      {
-        week: 'Week 9',
-        days: '14th August - 18th August',
-        time: ['2pm - 4pm', '4pm - 6pm']
-      },
-      {
-        week: 'Week 10',
-        days: '21st August - 25th August',
-        time: ['4pm - 6pm']
       },
     ]
   },
@@ -497,22 +383,12 @@ export const courses = [
     dates: [
       {
         week: 'Week 3',
-        days: '3rd July - 7th July',
+        days: '18th - 22nd Dec',
         time: ['10am - 12pm']
       },
       {
         week: 'Week 4',
-        days: '10th July - 14th July',
-        time: ['4pm - 6pm']
-      },
-      {
-        week: 'Week 7',
-        days: '31st July - 4th August',
-        time: ['10am - 12pm']
-      },
-      {
-        week: 'Week 8',
-        days: '7th August - 11th August',
+        days: '25th - 29th Dec',
         time: ['4pm - 6pm']
       },
     ]
@@ -524,13 +400,18 @@ export const courses = [
     img: 'https://static.wixstatic.com/media/b89f99_2bf900b13f464a759da87ff63a1490f8~mv2.png/v1/fill/w_290,h_168,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Figma_Age1214_Splash.png',
     dates: [
       {
-        week: 'Week 3',
-        days: '3rd July - 7th July',
+        week: 'Week 1',
+        days: '4th - 8th Dec',
         time: ['2pm - 4pm']
       },
       {
-        week: 'Week 7',
-        days: '31st July - 4th August',
+        week: 'Week 3',
+        days: '18th - 22nd Dec',
+        time: ['2pm - 4pm']
+      },
+      {
+        week: 'Week 5',
+        days: '1st - 5th Jan',
         time: ['2pm - 4pm']
       },
     ]
@@ -543,42 +424,22 @@ export const courses = [
     dates: [
       {
         week: 'Week 1',
-        days: '19th June - 23rd June',
+        days: '4th - 8th Dec',
         time: ['4pm - 6pm']
       },
       {
         week: 'Week 2',
-        days: '26th June - 30th June',
+        days: '11th - 15th Dec',
         time: ['4pm - 6pm']
       },
       {
         week: 'Week 3',
-        days: '3rd July - 7th July',
+        days: '18th - 22nd Dec',
         time: ['4pm - 6pm']
       },
       {
         week: 'Week 5',
-        days: '17th July - 21st July',
-        time: ['4pm - 6pm']
-      },
-      {
-        week: 'Week 6',
-        days: '24th July - 28th July',
-        time: ['4pm - 6pm']
-      },
-      {
-        week: 'Week 7',
-        days: '31st July - 4th August',
-        time: ['4pm - 6pm']
-      },
-      {
-        week: 'Week 9',
-        days: '14th August - 18th August',
-        time: ['4pm - 6pm']
-      },
-      {
-        week: 'Week 10',
-        days: '21st August - 25th August',
+        days: '1st - 5th Jan',
         time: ['4pm - 6pm']
       },
     ]
@@ -590,14 +451,29 @@ export const courses = [
     img: 'https://static.wixstatic.com/media/b89f99_59b6f0c6789b4d32adf986f97741c7a2~mv2.png/v1/fill/w_290,h_168,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/intro_to_ai.png',
     dates: [
       {
+        week: 'Week 1',
+        days: '4th - 8th Dec',
+        time: ['10am - 12pm']
+      },
+      {
+        week: 'Week 2',
+        days: '11th - 15th Dec',
+        time: ['12pm - 2pm']
+      },
+      {
         week: 'Week 3',
-        days: '3rd July - 7th July',
+        days: '18th - 22nd Dec',
         time: ['2pm - 4pm']
       },
       {
-        week: 'Week 7',
-        days: '31st July - 4th August',
-        time: ['2pm - 4pm']
+        week: 'Week 4',
+        days: '25th - 29th Dec',
+        time: ['10am - 12pm']
+      },
+      {
+        week: 'Week 5',
+        days: '1st - 5th Jan',
+        time: ['10am - 12pm']
       },
     ]
   },
@@ -609,27 +485,22 @@ export const courses = [
     dates: [
       {
         week: 'Week 1',
-        days: '19th June - 23rd June',
+        days: '4th - 8th Dec',
         time: ['2pm - 4pm']
       },
       {
+        week: 'Week 2',
+        days: '11th - 15th Dec',
+        time: ['10am - 12pm']
+      },
+      {
         week: 'Week 4',
-        days: '10th July - 14th July',
+        days: '25th - 29th Dec',
         time: ['2pm - 4pm']
       },
       {
         week: 'Week 5',
-        days: '17th July - 21st July',
-        time: ['2pm - 4pm']
-      },
-      {
-        week: 'Week 8',
-        days: '7th August - 11th August',
-        time: ['2pm - 4pm']
-      },
-      {
-        week: 'Week 9',
-        days: '14th August - 18th August',
+        days: '1st - 5th Jan',
         time: ['2pm - 4pm']
       },
     ]
