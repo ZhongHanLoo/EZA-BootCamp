@@ -49,12 +49,15 @@
           <mat-accordion>
             <mat-expansion-panel *ngFor="let date of course.dates">
               <mat-expansion-panel-header>
-                <mat-panel-title>
+                <!-- <mat-panel-title>
                   {{ date.week }}
-                </mat-panel-title>
-                <mat-panel-description>
+                </mat-panel-title> -->
+                <mat-panel-title>
                   {{ date.days }}
-                </mat-panel-description>
+                </mat-panel-title>
+                <!-- <mat-panel-description>
+                  {{ date.days }}
+                </mat-panel-description> -->
               </mat-expansion-panel-header>
               <mat-list role="list" *ngFor="let time of date.time">
                 <mat-list-item role="listitem" style="padding-left: 15px">{{
@@ -68,7 +71,7 @@
             mat-raised-button
             color="primary"
             style="width: 100%; background-color: #584b8a"
-            (click)="enrollForm()"
+            (click)="navigateTo(course.bookingLink)"
           >
             Enroll Now
           </button>

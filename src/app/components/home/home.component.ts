@@ -51,7 +51,7 @@ export class HomeComponent {
     this.filterCourses(this.selectedAgeGroup, this.selectedCourseType);
   }
 
-  enrollForm() {
-    window.open('https://forms.gle/uYg2kXydpiwY83xp8');
+  navigateTo(bookingLink: string) {
+    window.open(bookingLink, '_blank');
   }
 }
