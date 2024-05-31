@@ -2,3 +2,10 @@
   max-width: 410px;
   padding: 30px;
 }
+
+.centered-title {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-right: 0px;
+}

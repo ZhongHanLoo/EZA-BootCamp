@@ -1,6 +1,6 @@
 <mat-card style="padding: 15px">
   <mat-card-header style="margin: auto">
-    <mat-card-title>Bootcamps</mat-card-title>
+    <mat-card-title>Summer Bootcamps @ 1MK</mat-card-title>
   </mat-card-header>
   <br />
   <mat-form-field>
@@ -27,6 +27,7 @@
       <mat-option value="game dev">GAME DEV</mat-option>
       <mat-option value="ui/ux design">UI/UX DESIGN</mat-option>
       <mat-option value="web dev">WEB DEV</mat-option>
+      <mat-option value="Robotics">ROBOTICS</mat-option>
     </mat-select>
   </mat-form-field>
 
@@ -47,26 +48,37 @@
           <br />
 
           <mat-accordion>
-            <mat-expansion-panel *ngFor="let date of course.dates">
-              <mat-expansion-panel-header>
-                <!-- <mat-panel-title>
-                  {{ date.week }}
-                </mat-panel-title> -->
-                <mat-panel-title>
-                  {{ date.days }}
+            <mat-expansion-panel hideToggle>
+              <mat-expansion-panel-header >
+                <mat-panel-title class="centered-title">
+                  Show Schedule
                 </mat-panel-title>
-                <!-- <mat-panel-description>
-                  {{ date.days }}
-                </mat-panel-description> -->
+
               </mat-expansion-panel-header>
-              <mat-list role="list" *ngFor="let time of date.time">
-                <mat-list-item role="listitem" style="padding-left: 15px">{{
-                  time
-                }}</mat-list-item>
-              </mat-list>
+              <mat-accordion>
+                <mat-expansion-panel *ngFor="let date of course.dates">
+                  <mat-expansion-panel-header>
+                    <!-- <mat-panel-title>
+                      {{ date.week }}
+                    </mat-panel-title> -->
+                    <mat-panel-title>
+                      {{ date.days }}
+                    </mat-panel-title>
+                    <!-- <mat-panel-description>
+                      {{ date.days }}
+                    </mat-panel-description> -->
+                  </mat-expansion-panel-header>
+                  <mat-list role="list" *ngFor="let time of date.time">
+                    <mat-list-item role="listitem" style="padding-left: 15px">{{
+                      time
+                    }}</mat-list-item>
+                  </mat-list>
+                </mat-expansion-panel>
+              </mat-accordion>
             </mat-expansion-panel>
           </mat-accordion>
-          <br />
+
+          <br/>
           <button
             mat-raised-button
             color="primary"
